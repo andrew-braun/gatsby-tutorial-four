@@ -40,9 +40,19 @@ export default function Layout({ children }) {
         to={`/about/`}
         css={css`
           float: right;
+          padding: 0 .5rem;
         `}
       >
         About
+      </Link>
+      <Link
+        to={`/my-files/`}
+        css={css`
+          float: right;
+          padding: 0 .5rem;
+        `}
+      >
+        My Files
       </Link>
       {children}
     </div>
